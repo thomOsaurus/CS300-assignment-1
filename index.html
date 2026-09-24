@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The player card for Mateo Reyes, the Harbor City Hawks' all-around baseball star." />
+  <title>Mateo Reyes — Player Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Hawks home">
+        <span class="brand-mark">H</span>
+        <span>HARBOR CITY <b>HAWKS</b></span>
+      </a>
+      <div class="topbar-meta">
+        <span class="live-dot"><i></i> Live roster</span>
+        <button class="icon-button" id="themeToggle" aria-label="Toggle color theme">☼</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-intro">
+        <div>
+          <p class="eyebrow">2024 player profile <span>/</span> #07</p>
+          <h1>Built for the <em>big moment.</em></h1>
+          <p class="intro-copy">Get to know the spark at the heart of Harbor City baseball.</p>
+        </div>
+        <button class="share-button" id="shareButton"><span>↗</span> Share profile</button>
+      </section>
+
+      <section class="profile-card" aria-label="Mateo Reyes player profile">
+        <div class="card-visual">
+          <div class="visual-topline"><span>HAWKS / 07</span><span>RHP · INF</span></div>
+          <div class="player-number">07</div>
+          <div class="player-art" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="stadium-lines"></div>
+            <div class="player-silhouette">
+              <div class="head"></div><div class="cap"></div><div class="neck"></div>
+              <div class="torso"></div><div class="arm arm-left"></div><div class="arm arm-right"></div>
+              <div class="bat"></div><div class="leg leg-left"></div><div class="leg leg-right"></div>
+            </div>
+            <div class="visual-caption"><span>EST.</span><strong>1998</strong><span>PLAY<br>LOUD</span></div>
+          </div>
+          <div class="team-badge"><span>HC</span><small>HAWKS</small></div>
+        </div>
+
+        <div class="card-content">
+          <div class="player-heading">
+            <div>
+              <p class="eyebrow accent">Harbor City Hawks</p>
+              <h2>Mateo <strong>Reyes</strong></h2>
+              <p class="player-role">Right-handed pitcher <span>•</span> Utility infielder</p>
+            </div>
+            <button class="favorite" id="favoriteButton" aria-label="Add Mateo Reyes to favorites" aria-pressed="false">♡</button>
+          </div>
+
+          <div class="bio-grid">
+            <div><span>Born</span><b>May 14, 1998</b></div>
+            <div><span>Height</span><b>6' 2" / 188 cm</b></div>
+            <div><span>Weight</span><b>195 lb / 88 kg</b></div>
+            <div><span>Bats / Throws</span><b>R / R</b></div>
+          </div>
+
+          <div class="stats-header">
+            <div><p class="eyebrow accent">Season snapshot</p><h3 id="seasonLabel">2024 regular season</h3></div>
+            <label class="select-wrap"><span class="sr-only">Select season</span><select id="seasonSelect"><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option></select></label>
+          </div>
+          <div class="stats-grid" id="statsGrid"></div>
+
+          <div class="card-footer">
+            <div class="status"><span class="status-dot"></span><span><b>Next up</b> vs. Portside Pilots · Fri 7:05 PM</span></div>
+            <span class="card-id">HC-07 / 24</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="below-card">
+        <div class="quote-mark">“</div>
+        <div><p class="quote">“I play every inning like it’s the ninth.”</p><p class="quote-credit">— Mateo Reyes, on his approach</p></div>
+        <div class="scroll-note"><span class="scroll-line"></span> Scroll to explore</div>
+      </section>
+    </main>
+    <footer><span>HARBOR CITY HAWKS</span><span>PLAYER CARD SERIES / 01</span><span>© 2024 HCH</span></footer>
+  </div>
+  <div class="toast" id="toast" role="status">Profile link copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>

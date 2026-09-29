@@ -162,6 +162,7 @@ body {
   .stat-box .label {
     text-decoration: underline;
     text-underline-offset: 4  px;
+    text-decoration-thickness: 2px;
   }
 
 

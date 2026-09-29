@@ -68,7 +68,7 @@ body {
 }
 
 .jersey-number {
-  background: transparent;);
+  background: transparent;
   color: var(--accent-deep);
   border-radius: 999px;
   padding: 7px 12px;
@@ -232,7 +232,18 @@ button {
   font-size: 1.2rem;
 }
 
-@media (max-width: 480px) {
+.player-profile {
+  background: #ffffff;
+  border: 3px solid #1d4ed8;
+  border-radius: 16px;
+  padding: 24px;
+}
+.player-profile p {
+  margin: 8px 0 0;
+  line-height: 1.5;
+} 
+
+  @media (max-width: 480px) {
   .profile-card {
     padding: 18px 16px 16px;
   }

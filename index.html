@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseball Player Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="profile-card">
+      <div class="card-topbar">
+        <span class="team-tag">MLB • NL Central</span>
+        <span class="jersey-number">#4</span>
+      </div>
+
+      <section class="player-header">
+        <div class="player-photo-wrap">
+          <img
+            src="pete.jpg"
+            alt="Baseball player portrait"
+          />
+        </div>
+
+        <div class="player-info">
+          <p class="position">Center Fielder</p>
+          <h1>Pete Crow-Armstrong</h1>
+          <div class="player-meta">
+            <span>Chicago Cubs</span>
+            <span>Age 24</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stat-grid" aria-label="Player statistics">
+        <article class="stat-box">
+          <span class="label">AVG</span>
+          <strong>.278</strong>
+        </article>
+        <article class="stat-box">
+          <span class="label">HR</span>
+          <strong>45</strong>
+        </article>
+        <article class="stat-box">
+          <span class="label">RBIs</span>
+          <strong>107</strong>
+        </article>
+        <article class="stat-box">
+          <span class="label">SB</span>
+          <strong>41</strong>
+        </article>
+      </section>
+
+      <section class="details-row">
+        <div class="detail-item">
+          <span class="detail-label">Height</span>
+          <strong>6'1"</strong>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Weight</span>
+          <strong>184 lb</strong>
+        </div>
+        <div class="detail-item">
+          <span class="detail-label">Throws</span>
+          <strong>LEFT</strong>
+        </div>
+      </section>
+
+      <div class="card-footer">
+        <button type="button">Scout Report</button>
+        <div class="rating">
+          <span>Power</span>
+          <strong>89</strong>
+            <span>Speed</span>
+          <strong>92</strong>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

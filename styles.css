@@ -158,11 +158,12 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 6px;
+}
   .stat-box .label {
     text-decoration: underline;
     text-underline-offset: 4  px;
   }
-}
+
 
 .stat-box strong {
   font-size: 1.5rem;

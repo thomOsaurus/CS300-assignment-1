@@ -242,7 +242,11 @@ button {
   margin: 8px 0 0;
   line-height: 1.5;
 } 
-
+.player-profile .social-info {
+  margin-top: 18px;
+}
+   
+  
   @media (max-width: 480px) {
   .profile-card {
     padding: 18px 16px 16px;

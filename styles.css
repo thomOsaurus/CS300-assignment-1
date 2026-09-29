@@ -219,7 +219,7 @@ button {
   transition: all 0.2s ease, box-shadow 0.2s ease;
 }
   button:hover {
-  box-shadow: 0 16px 32px rgba(200, 29, 37, 0.4);
+  box-shadow: 0 16px 32px rgba(58, 16, 247, 0.4);
 }
 .rating {
   text-align: right;

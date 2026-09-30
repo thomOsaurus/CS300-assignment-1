@@ -107,7 +107,7 @@ body {
 .position {
   margin: 0 0 6px;
   color: var(--accent);
-  font-weight: 800
+  font-weight: 800;
   font-size: 0.72rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
